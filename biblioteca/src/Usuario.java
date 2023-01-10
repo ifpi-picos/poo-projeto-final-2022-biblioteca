@@ -20,15 +20,26 @@ public class Usuario {
     public String getNome() {
         return this.nome;
     }
-
+    public void setNome(String nome) {
+        this.nome = nome;        
+    }
     public String getEmail() {
         return this.email;
+    }
+    public void setEmail(String email) {
+        this.email = email;    
     }
     public LocalDate getDataNascimento() {
         return this.dataNascimento;
     }
+    public void setDataNascimento(LocalDate dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
     public Endereco getEndereco() {
         return this.endereco;
+    }
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
 
 }

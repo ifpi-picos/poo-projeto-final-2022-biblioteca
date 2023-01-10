@@ -19,12 +19,20 @@ public class Emprestimo {
     public LocalDate getDataEmprestimo() {
         return this.dataEmprestimo;
     }
-
+    public void setDataEmprestimo(LocalDate dataEmprestismo) {
+        this.dataEmprestimo = dataEmprestimo;        
+    }
     public Livro getLivro() {
         return this.livro;
     }
+    public void setLivro(Livro livro) {
+        this.livro = livro;        
+    }
     public Usuario getUsuario() {
         return this.usuario;
+    }
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;        
     }
 
 }
