@@ -17,6 +17,9 @@ public class Livro {
 
     }
 
+    public Livro() {
+    }
+
     public String getTitulo() {
         return this.titulo;
     }
