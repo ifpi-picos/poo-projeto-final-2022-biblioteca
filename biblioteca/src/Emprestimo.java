@@ -5,17 +5,11 @@ public class Emprestimo {
     Livro livro;
     Usuario usuario;
 
-   
-    
-
-
     public Emprestimo(LocalDate dataEmprestimo, Livro livro, Usuario usuario){
         this.dataEmprestimo = dataEmprestimo;
         this.livro = livro;
         this.usuario = usuario;
-
     }
-
     public LocalDate getDataEmprestimo() {
         return this.dataEmprestimo;
     }
